@@ -44,7 +44,7 @@ The model is deployed as an interactive Streamlit web app, allowing users to upl
 📦 Parkinsons_CNN_App/
 │
 ├── app.py                # Streamlit web app
-├── model.h5              # Trained CNN model
+├── parkinson_model.h5              # Trained CNN model
 ├── class_indices.json    # Class label mappings
 ├── requirements.txt      # Dependencies
 ├── README.md             # Project documentation
