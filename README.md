@@ -11,28 +11,36 @@ The model is deployed as an interactive Streamlit web app, allowing users to upl
 👉 Try the App on Streamlit Cloud
  (replace with your actual link after deployment)
 
-🧩 Features
+**🧩 Features**
 
-🧬 Predicts Parkinson’s Disease from spiral or wave handwriting drawings
+1. 🧬 Predicts Parkinson’s Disease from spiral or wave handwriting drawings
 
-📷 Accepts image uploads directly in the browser
+2. 📷 Accepts image uploads directly in the browser
 
-⚡ Built with Convolutional Neural Networks (CNN) for feature extraction
+3. ⚡ Built with Convolutional Neural Networks (CNN) for feature extraction
 
-🧠 Real-time inference using a pre-trained .h5 model
+4. 🧠 Real-time inference using a pre-trained .h5 model
 
-🎨 Clean and responsive Streamlit interface
+5. 🎨 Clean and responsive Streamlit interface
 
-📊 Visualizes training accuracy and loss
+6. 📊 Visualizes training accuracy and loss
 
-🏗️ Tech Stack
-Component	Technology Used
-Frontend	Streamlit
-Backend	TensorFlow / Keras
-Programming Language	Python
-Image Processing	Pillow (PIL)
-Dataset	KMader / Parkinson’s Drawings (Kaggle)
-📁 Project Structure
+
+
+
+| Component            | Technology Used                                                                                      |
+| -------------------- | ---------------------------------------------------------------------------------------------------- |
+| Frontend             | Streamlit                                                                                            |
+| Backend              | TensorFlow / Keras                                                                                   |
+| Programming Language | Python                                                                                               |
+| Image Processing     | Pillow (PIL)                                                                                         |
+| Dataset              | [KMader / Parkinson’s Drawings (Kaggle)](https://www.kaggle.com/datasets/kmader/parkinsons-drawings) |
+
+
+
+**📁 Project Structure**
+
+```
 📦 Parkinsons_CNN_App/
 │
 ├── app.py                # Streamlit web app
@@ -41,24 +49,27 @@ Dataset	KMader / Parkinson’s Drawings (Kaggle)
 ├── requirements.txt      # Dependencies
 ├── README.md             # Project documentation
 └── /drawings             # Dataset (spiral, wave images)
+```
 
-⚙️ Installation & Setup
+
+**⚙️ Installation & Setup**
+
+
 1️⃣ Clone the repository
+```
 git clone https://github.com/jeetshee4/parkinsons-cnn-streamlit.git
 cd parkinsons-cnn-streamlit
+```
 
-2️⃣ (Optional) Create a virtual environment
-python -m venv venv
-source venv/bin/activate       # for macOS/Linux
-venv\Scripts\activate          # for Windows
-
-3️⃣ Install dependencies
+2️⃣ Install dependencies
 pip install -r requirements.txt
 
-4️⃣ Run locally
+3️⃣ Run locally
 streamlit run app.py
 
-🧮 Model Overview
+ 
+
+***🧮 Model Overview***
 
 The CNN model was trained using the Parkinson’s Drawings dataset, containing spiral and wave drawings labeled as healthy or parkinson.
 The architecture includes:
@@ -89,13 +100,16 @@ or
 
 ✅ Predicted Class: Healthy
 
-🧑‍💻 Author
+
+**🧑‍💻 Author**
 
 Jeet Shee
-📧 [Your Email or LinkedIn]
+📧 biswanathshee87@gmail.com
+
 💻 GitHub: jeetshee4
 
-🏁 Future Enhancements
+
+**🏁 Future Enhancements**
 
 🔁 Train on larger handwriting datasets for improved accuracy
 
